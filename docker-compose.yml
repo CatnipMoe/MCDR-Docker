@@ -1,0 +1,16 @@
+version: '3'
+services:
+  init:
+    build:
+     context: .
+     dockerfile: ./init.Dockerfile
+    volumes:
+     - ./data:/data
+  run:
+    build:
+      context: .
+      dockerfile: ./run.Dockerfile
+    ports:
+      - '25565:25565'
+    volumes:
+      - ./data:/data
