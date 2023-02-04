@@ -8,4 +8,4 @@
 4. All of your data will store in ./data
 
 ### java.lang.IllegalArgumentException: Negative position in WSL2:
-Don't use NTFS,clone this repo directly in your WSL,then run `docker compose up -d` 
+Don't use NTFS,clone this repo directly in your WSL,then run `docker compose up -d` in your WSL
