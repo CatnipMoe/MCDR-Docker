@@ -1,4 +1,4 @@
-# XynBio Minecraft Server Docker Container
+# MCDR Minecraft Server Docker Container
 
 ### A bundle of Fabric server and MCDReforged
 
